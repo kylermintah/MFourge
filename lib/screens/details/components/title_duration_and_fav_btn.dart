@@ -39,7 +39,7 @@ class TitleDurationAndFabBtn extends StatelessWidget {
                     ),
                     SizedBox(width: kDefaultPadding),
                     Text(
-                      "2h 32min",
+                      "3 Issues",
                       style: TextStyle(color: kTextLightColor),
                     ),
                   ],

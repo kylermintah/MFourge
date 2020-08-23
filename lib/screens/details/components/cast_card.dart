@@ -18,6 +18,7 @@ class CastCard extends StatelessWidget {
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               image: DecorationImage(
+                fit: BoxFit.cover,
                 image: AssetImage(
                   cast['image'],
                 ),

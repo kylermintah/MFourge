@@ -6,14 +6,7 @@ import '../../../constants.dart';
 class Genres extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    List<String> genres = [
-      "Action",
-      "Crime",
-      "Comedy",
-      "Drama",
-      "Horror",
-      "Animation"
-    ];
+    List<String> genres = ["Action", "Fantasy", "Drama", "Horror", "Adventure"];
     return Container(
       margin: EdgeInsets.symmetric(vertical: kDefaultPadding / 2),
       height: 36,
